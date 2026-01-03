@@ -34,7 +34,7 @@ print(animal); #none
 
 
 x,y = y,x = 1,2
-print(x,y);
+print(x,y)
 
 
 
