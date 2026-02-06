@@ -24,10 +24,11 @@
 # Without venv  → they clash
 # With venv  → each project gets its own version safely.
 
-# to install use pip3 install virtialenv
+# to install use pip3 install virtualenv
 # after
 # python3 -m venv env
 # to activate : source env/bin/activate
+# if have more env : source envname/bin/activate
 
 
 # flow
@@ -43,7 +44,7 @@
 # some other Python
 # NOT your virtual env 😬
 # So sometimes packages install in the wrong place.
-# ✅ python -m pip install <package>
+# ✅ python3 -m pip install <package>
 # 👉 Uses pip that belongs to THIS Python interpreter.
 # If you’re in:
 # virtual env → installs into that env ✅
