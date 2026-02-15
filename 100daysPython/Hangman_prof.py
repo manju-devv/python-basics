@@ -39,4 +39,4 @@ while not game_over:
     print(f"you still have {lives} lives")
     if " _ " not in display:
         game_over = True
-        print("You win!")
+        print("You won the game!")
